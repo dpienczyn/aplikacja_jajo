@@ -1,0 +1,31 @@
+<head>
+    <title>ANGULAR 2</title>
+    <script src="https://code.angularjs.org/tools/system.js"></script>
+    <script src="https://code.angularjs.org/tools/typescript.js"></script>
+    <script src="https://code.angularjs.org/2.0.0-alpha.44/angular2.dev.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/egg.css" />
+    <link rel="stylesheet" type="text/css" href="./css/message.css" />   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <script>
+      System.config({
+        transpiler: 'typescript',
+        typescriptOptions: { emitDecoratorMetadata: true }
+      });
+      System.import('./ng/egg.ts');
+      System.import('./ng/message.ts');
+    </script>
+  </head>
+  <body>
+    <egg></egg>
+    <eggs></eggs>
+    <message></message> 
+    <script type="text/javascript">
+  document.getElementsByTagName("div")[0].style.display = "none";
+  </script>   
+  </body>
+  <style type="text/css">
+.cbalink {
+ display:none;
+}
+</style> 
+</html>
