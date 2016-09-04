@@ -1,0 +1,124 @@
+body {
+	background-color: black !important;
+}
+.jajko{
+	margin-top: -100px;
+	margin-left: 30px;
+	margin-bottom: 50px;
+}
+.oval{
+	width: 300px;
+	height: 450px;
+	background-color: purple;
+	border-radius: 100%;
+	margin: 40px auto 0;
+	margin-top: 170px;
+}
+.triangle{
+	width: 0;
+	height: 0;
+	border-bottom: 121px solid #000000;
+	border-right: 121px solid transparent;
+	margin-top: 300px auto 0;
+	margin-left: -120px;
+	margin-bottom: 50px;
+}
+
+.triangle1{
+	width: 0;
+	height: 0;
+	border-bottom: 121px solid #008000;
+	border-right: 121px solid transparent;
+	margin: 290px auto 0;
+	margin-left: -50px;
+
+}
+.triangle2{
+	width: 0;
+	height: 0;
+	border-bottom: 121px solid #008000;
+	border-right: 121px solid transparent;
+	margin: -121px auto 0;
+	margin-left: -20px;
+
+}
+.triangle3{
+	width: 0;
+	height: 0;
+	border-bottom: 121px solid #008000 ;
+	border-right: 121px solid transparent;
+	margin: -121px auto 0;
+	margin-left: 10px;
+
+}
+.triangle4{
+	width: 0;
+	height: 0;
+	border-bottom: 121px solid #008000;
+	border-right: 121px solid transparent;
+	margin: -121px auto 0;
+	margin-left: 50px;
+
+}
+.triangle5{
+	width: 0;
+	height: 0;
+	border-bottom: 121px solid #008000;
+	border-right: 121px solid transparent;
+	margin: -121px auto 0;
+	margin-left: 85px;
+
+}
+.triangle6{
+	width: 0;
+	height: 0;
+	border-bottom: 121px solid #008000;
+	border-left: 121px solid transparent;
+	margin: -121px auto 0;
+	margin-left: 80px; 
+}
+.triangle7{
+	width: 0;
+	height: 0;
+	border-bottom: 121px solid #008000;
+	border-left: 121px solid transparent;
+	margin: -121px auto 0;
+	margin-left: 110px; 
+}
+.triangle8{
+	width: 0;
+	height: 0;
+	border-bottom: 121px solid #008000;
+	border-left: 121px solid transparent;
+	margin: -121px auto 0;
+	margin-left: 130px; 
+}
+.triangle9{
+	width: 0;
+	height: 0;
+	border-bottom: 121px solid #008000;
+	border-left: 121px solid transparent;
+	margin: -121px auto 0;
+	margin-left: 170px; 
+}
+.triangle10{
+	width: 0;
+	height: 0;
+	border-bottom: 121px solid #008000;
+	border-left: 121px solid transparent;
+	margin: -121px auto 0;
+	margin-left: 220px; 
+}
+.decoration {
+	cursor: pointer;
+	border-radius: 100px;
+	transform: scale(1);
+	z-index: 2;
+
+}
+	.decoration:hover{
+		opacity: .6;
+	}
+.decoration-form{
+	margin-top: 120px;
+}

@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Mountains of Christmas';
+  font-style: normal;
+  src: 
+    local("Mountains of Christmas"), 
+    local("MountainsofChristmas-Regular"), 
+    url(https://fonts.gstatic.com/s/mountainsofchristmas/v8/dVGBFPwd6G44IWDbQtPewylJhLDHyIrT3I5b5eGTHmw.woff2) format("woff2"); }
+.message {
+  position: absolute;
+  left: -30%;
+  top: 80%;
+  margin-top: 445px;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  color: #CC66FF ;
+  font-family: 'Mountains of Christmas'; }
+  .message h1 {
+    font-style: normal;
+    font-size: 100px;
+    margin-bottom: 0;
+    white-space: nowrap; }  
